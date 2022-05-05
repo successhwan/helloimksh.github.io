@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Typo_SsangmunDongB';
+  src: url('Typo_SsangmunDongB.eot');
+  src: url('Typo_SsangmunDongB.eot?#iefix') format('embedded-opentype'),
+       url('Typo_SsangmunDongB.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Typo_SsangmunDong_B';
+  src: url('Typo_SsangmunDong_B.svg#Typo_SsangmunDong_B') format('svg'),
+       url('Typo_SsangmunDong_B.ttf') format('truetype'),
+       url('Typo_SsangmunDong_B.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
