@@ -41,6 +41,7 @@ body {
 .wrap {
   position: relative;
   display: block;
+  background: url("../images/portpolio_back.png") no-repeat center;
 }
 
 .clearfix:after {
