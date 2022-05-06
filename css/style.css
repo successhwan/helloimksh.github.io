@@ -84,8 +84,8 @@ body {
   left: 0;
   width: 10rem;
   height: 10rem;
-  background: url("../images/header_logo.png") no-repeat center;
-  background-size: 70%;
+  background: url("../images/pp_logo.png") no-repeat center;
+  background-size: 90%;
 }
 
 .gnb {
