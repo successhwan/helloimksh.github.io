@@ -38,10 +38,20 @@ body {
   line-height: 1.4;
 }
 
+hr {
+  position: relative;
+  display: block;
+  width: 100%;
+  color: #000;
+  /* border: none; */
+  border-top: 0.2rem solid #000;
+}
+
 .wrap {
   position: relative;
   display: block;
-  background: url("../images/background.png") no-repeat center;
+  background: url("../images/background_2.png") center no-repeat;
+  background-size: 100%;
 }
 
 .clearfix:after {
@@ -81,14 +91,17 @@ body {
   z-index: 999;
 }
 
+.header hr {
+  position: absolute;
+  bottom: 0;
+}
+
 .logo {
   position: absolute;
   top: 0;
   left: 0;
   width: 10rem;
   height: 10rem;
-  background: url("../images/pp_logo.png") no-repeat center;
-  background-size: 88%;
 }
 
 .gnb {
@@ -127,7 +140,7 @@ body {
   width: 55rem;
   height: 70rem;
   float: left;
-  margin: 10rem 0 0 0;
+  margin: 10rem 0 0 0;;
 }
 
 .info-img > img {
@@ -141,7 +154,7 @@ body {
   position: relative;
   display: block;
   float: left;
-  padding: 21rem 0 0 18rem;
+  margin: 21rem 0 0 18rem;
   font-size: 1.5rem;
 }
 
@@ -418,3 +431,4 @@ body {
   float: right;
   margin: 10rem 10rem 0 0;
 }
+
