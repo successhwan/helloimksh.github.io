@@ -50,8 +50,7 @@ hr {
 .wrap {
   position: relative;
   display: block;
-  background: url("../images/backgoround_0.png") center no-repeat;
-  background-size: 100%;
+  background: url("../images/backgoround_0.png")center/cover;
 }
 
 .clearfix:after {
