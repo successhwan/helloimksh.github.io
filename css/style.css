@@ -41,7 +41,7 @@ body {
 .wrap {
   position: relative;
   display: block;
-  background: url("../images/background_0.png") center/cover;
+  background: url("../images/bg_0.png") no-repeat center;
 }
 
 .clearfix:after {
