@@ -37,20 +37,11 @@ body {
   color: #000;
   line-height: 1.4;
 }
-
-hr {
-  position: relative;
-  display: block;
-  width: 100%;
-  color: #000;
-  /* border: none; */
-  border-top: 0.2rem solid #000;
-}
-
+  
 .wrap {
   position: relative;
   display: block;
-  background: url("../images/backgoround_0.png")center/cover;
+  background: url("../images/background_0.png") center/cover;
 }
 
 .clearfix:after {
@@ -430,4 +421,3 @@ hr {
   float: right;
   margin: 10rem 10rem 0 0;
 }
-
